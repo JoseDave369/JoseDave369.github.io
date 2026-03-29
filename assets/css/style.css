@@ -356,3 +356,60 @@ footer p { font-size: .88rem; margin-bottom: .6rem; }
   transition: opacity .6s ease, transform .6s ease;
 }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+
+/* ─────────────────── DASHBOARD GALLERY ─────────────────── */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  color: inherit;
+}
+.gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: #bfdbfe;
+  color: inherit;
+}
+.gallery-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  background: #e5e7eb;
+}
+.gallery-body {
+  padding: 1rem 1.1rem 1.2rem;
+}
+.gallery-body h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: .45rem;
+}
+.gallery-body p {
+  font-size: .86rem;
+  color: var(--gray-500);
+  margin-bottom: .85rem;
+  line-height: 1.7;
+}
+.gallery-tag {
+  display: inline-block;
+  background: #eff6ff;
+  color: var(--primary);
+  font-size: .74rem;
+  font-weight: 700;
+  padding: .22rem .65rem;
+  border-radius: 999px;
+  letter-spacing: .3px;
+}

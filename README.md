@@ -24,6 +24,7 @@ Specialised in **SQL, Power BI, Python, and AI/ML**. Certified in IBM Data Scien
 ├── 📄 index.html                              ← Portfolio homepage
 ├── 📁 assets/
 │   ├── 📁 css/style.css                      ← Styles
+│   ├── 📁 img/                               ← Embedded Power BI screenshots
 │   └── 📁 js/main.js                         ← Interactivity
 └── 📁 projects/
     ├── 01-sql-capstone/                      ← SQL Database Design
@@ -47,6 +48,20 @@ Specialised in **SQL, Power BI, Python, and AI/ML**. Certified in IBM Data Scien
 | **Programming** | Python 3, Pandas, NumPy, Matplotlib, Seaborn |
 | **Machine Learning** | Scikit-learn, SVM, StandardScaler |
 | **Tools** | Jupyter Notebook, Google Colab, Git, GitHub |
+
+---
+
+## 🖼️ Dashboard Gallery
+
+The portfolio now includes an embedded **Power BI Dashboard Gallery** so visitors can preview the reports directly from the public website without needing to download the project files first.
+
+Included screenshot themes:
+- Procurement & supplier performance
+- Product and OTIF dashboards
+- Utility & margin analysis
+- Sales by branch
+- Representative performance
+- Retail dashboards (ElectroMás)
 
 ---
 
